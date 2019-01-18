@@ -1,42 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
+  <!-- <meta charset="UTF-8"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>圓觀藝術雕塑工坊</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'/>
-  <style>
-    *{
-        font-family: '微軟正黑體'!important;
-    }
-    .jumbotron{
-        background-image: url('./封面.jpg');
-        background-size: cover;
-        background-position: 50% 50%;
+  <link rel="stylesheet" href="stylesheets/all.css">
 
-        padding: 0 !important;
-    }
-    .jumContain{
-        background-color: rgba(0,0,0,.7);
-    }
-    </style>
 </head>
+
 <body>
   <nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="#">
       圓觀藝術雕塑工坊
     </a>
   </nav>
-  <div class="container">
-    <!-- Image and text -->
-    <div class="jumbotron p-3 p-md-5 text-white rounded">
-      <div class="col-md-7 p-5 px-0 jumContain">
-        <h1 class="display-4">深山裡的泥塑師</h1>
-        <p class="lead my-3">一位台灣本土的雕塑家，堅持以最自然、最原始的材質-『土』來創造藝術品，每件作品經過他巧奪天工的一雕一塑及高温窯燒後，佛像作品所呈現出來的已不僅僅是佛像，更是一件件富有生命的藝術品。『原作』也是莊鎮銘創作所堅持的意念，每件作品所注入的還包含其中的精神和汗水，期望所雕塑出的作品具有發揚佛像藝術的優長，且富於審美與歷史價值的佛像藝術品。</p>
-        <p class="lead mb-0"><a href="https://blog.xuite.net/ygart/twblog" class="text-white font-weight-bold">前往部落格...</a></p>
+  <div class="container mt-3">
+    <main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">圓觀藝術雕塑工坊</h1>
+          <p class="lead text-muted"></p>
+          <a class="btn btn-outline-success" href="https://blog.xuite.net/ygart/twblog">
+            <<點我進部落格>>
+          </a>
+        </div>
+      </section>
+
+    </main>
+    <div class="album p-3 bg-light">
+      <h1 class="pb-3">創作工法</h1>
+      <div class="container">
+
+        <div class="row col">
+          <div class="col-md-6">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" src="./封面.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">水泥雕塑</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" src="./釋迦菩薩.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">陶土雕塑</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
+    <section class="jumbotron text-left">
+      <div class="container">
+        <h2 class="jumbotron-heading">作者簡介</h2>
+        <h4>莊鎮銘</h4>
+        <p class="lead text-muted">一位台灣本土的雕塑家，堅持以最自然、最原始的材質-『土』來創造藝術品，不論是水泥土，亦或是陶土，只要經過他巧奪天工的一雕一塑及高温窯燒後，佛像作品所呈現出來的已不僅僅是佛像，更是一件件富有生命的藝術品。『原作』也是莊鎮銘創作所堅持的意念，每件作品所注入的還包含其中的精神和汗水，期望所雕塑出的作品具有發揚佛像藝術的優長，且富於審美與歷史價值的佛像藝術品。</p>
+        <a class="btn btn-outline-success" href="https://blog.xuite.net/ygart/twblog">
+          <<點我進部落格>>
+        </a>
+      </div>
+    </section>
+
   </div>
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">圓觀藝術雕塑工坊</span>
+    </div>
+  </footer>
+  
 </body>
+
 </html>
